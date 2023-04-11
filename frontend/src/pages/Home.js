@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useWorkoutsContext } from '../hooks/useWorkoutContext'
 
 //components
@@ -18,7 +18,7 @@ const Home = () => {
                dispatch({type: 'SET_WORKOUTS', payload: json})
             }
         }
-        
+
         fetchWorkouts()
     }, [dispatch])
 
@@ -28,9 +28,7 @@ const Home = () => {
                 {workouts && workouts.map((workout) => (
                    <WorkoutDetails key={workout._id} workout={workout} />
                 ))}
-
             </div>
-
             <WorkoutForm/>
         </div>
     )
