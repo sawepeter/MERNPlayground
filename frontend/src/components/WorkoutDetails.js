@@ -6,7 +6,7 @@ const WorkoutDetails = ({ workout }) => {
 
     const handleClick = async () => {
         const response = await fetch('api/workouts/' + workout._id, {
-            method: DELETE
+            method: 'DELETE'
         })
 
         const json = await response.json()
@@ -21,7 +21,7 @@ const WorkoutDetails = ({ workout }) => {
             <p><strong>Load (kg): </strong>{workout.load}</p>
             <p><strong>Number of reps: </strong>{workout.reps}</p>
             <p>{workout.createdAt}</p>
-            <span onclick={handleClick}>delete</span>
+            <span onClick={handleClick}>delete</span>
         </div>
     )
 }
