@@ -8,10 +8,11 @@ const createToken = (_id) => {
 
 //login a user
 const loginUser = async (req, res) => {
+
     const {email, password} = req.body
 
     try {
-        const user = await User.signup(email, password)
+        const user = await User.login(email, password)
 
         //create a token
         const token = createToken(user._id)
@@ -38,4 +39,4 @@ const signupUser = async (req, res) => {
     } 
 }
 
-module.exports = { signupUser, loginUser }
+module.exports = { signupUser, loginUser}
