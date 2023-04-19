@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
 
-
 //components
 import WorkoutDetails  from '../components/WorkoutDetails'
 import WorkoutForm from '../components/WorkoutForm'
