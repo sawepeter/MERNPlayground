@@ -10,7 +10,6 @@ const Navbar = () => {
         logout()
     }
 
-    
     return (
         <header>
             <div className="container">
@@ -31,7 +30,6 @@ const Navbar = () => {
                         </div>
                      )}
                 </nav>
-
             </div>
         </header>
     )
