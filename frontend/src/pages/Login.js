@@ -12,7 +12,7 @@ const Login = () => {
 
         console.log(email, password)
 
-        //await login(email, password)
+        await login(email, password)
     }
 
     return (
