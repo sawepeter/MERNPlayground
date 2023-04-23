@@ -41,8 +41,9 @@ const WorkoutForm = () => {
             setTitle('')
             setLoad('')
             setReps('')
+            setEmptyFields([])
             dispatch({type:'CREATE_WORKOUT', payload:json})
-            console.log('new workout added:', json)
+            //console.log('new workout added:', json)
         }
     }
 
