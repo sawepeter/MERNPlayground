@@ -1,7 +1,6 @@
 const Workout = require('../models/WorkoutModel')
 const mongoose = require('mongoose')
 
-
 //get all workouts
 const getWorkouts = async (req, res) => {
     const user_id = req.user._id
@@ -54,7 +53,6 @@ const createWorkout = async (req, res) => {
         const user_id = req.user._id
         const workout = await Workout.create({ title, load, reps, user_id })
         res.status(200).json(workout)
-
     } catch (error) {
         res.status(400).json({ error:  error.message})
     }
