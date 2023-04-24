@@ -27,11 +27,8 @@ There are a number of dependencies installed for this project to run smoothly.
 ### Demo Screenshots
 Below are the screenshots how the final application looks like.
 
-## Signup Page
-<img src="screenshots/signup.png" /> 
-
-## Login Page
-<img src="screenshots/login.png" /> 
+## Signup & Login Page
+<img src="screenshots/signup.png" width="500"/> <img src="screenshots/login.png" width="500"/> 
 
 ## Workout Form 
 <img src="screenshots/workoutform.png" /> 
