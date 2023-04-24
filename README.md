@@ -15,6 +15,18 @@ For the frontend i have used Reactjs and MongoDb (Atlas) for the database.
 
 The Project goes a further step to implement the JSON Web Token for authentication and Authorization.
 
+The project contains two folders; the backend and the frontend.
+
+There are a number of dependencies installed for this project to run smoothly.
+
+
+### Demo Screenshots
+Below are the screenshots how the final application looks like.
+
+## Signup & Login Page
+img src="screenshots/signupform.png" width="250"/> <img src="screenshots/loginform.png" width="250"/> 
+
+
 
 TECH STACK
 <div>
@@ -25,3 +37,10 @@ TECH STACK
   <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" title="MongoDB"  alt="MongoDB" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>
 </div>
+
+## 🙋‍♂️ Support
+
+💙 If you like this project, give it a ⭐ and share it with friends!
+
+[☕ Buy me a coffee](https://ko-fi.com/devsawe)
+
