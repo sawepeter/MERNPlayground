@@ -17,6 +17,10 @@ The Project goes a further step to implement the JSON Web Token for authenticati
 
 The project contains two folders; the backend and the frontend.
 
+For the Rest Api here is the postman published link :
+
+https://documenter.getpostman.com/view/8103031/2s93Y5PL5F
+
 There are a number of dependencies installed for this project to run smoothly.
 
 
