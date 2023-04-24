@@ -30,17 +30,11 @@ Below are the screenshots how the final application looks like.
 ## Signup & Login Page
 <img src="screenshots/signup.png" width="500"/> <img src="screenshots/login.png" width="500"/> 
 
-## Workout Form 
-<img src="screenshots/workoutform.png" /> 
-
-## Workouts Page
-<img src="screenshots/workouts.png" /> 
+## Workouts & Workout Form Page
+<img src="screenshots/workout.png" />
 
 ## database 
-<img src="screenshots/database.png" /> 
-<img src="screenshots/db.png" /> 
-
-
+<img src="screenshots/databases.png" /> <img src="screenshots/dbw.png" /> 
 
 TECH STACK
 <div>
