@@ -46,9 +46,10 @@ TECH STACK
   <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>
 </div>
 
-## 🙋‍♂️ Support
+<!--- ## 🙋‍♂️ Support
 
 💙 If you like this project, give it a ⭐ and share it with friends!
 
 [☕ Buy me a coffee](https://ko-fi.com/devsawe)
+-->
 
